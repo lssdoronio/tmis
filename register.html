@@ -52,7 +52,7 @@
 		</div>
 	</nav> <!-- end -->
 
-	<div class="container">
+	<div class="container" style="margin-bottom: 100px;">
 		<div class="template">
 			<div class="col-xs-12 col-sm-8 offset-sm-2 col-md-10 offset-md-1 col-lg-8 offset-lg-2" style="background-color: #f5f5f5; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;">
 				<form>
@@ -66,12 +66,14 @@
 
 						<div class="row" style="margin-bottom: 10px;">
 							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>First name</strong></label>
 								<div class="input-group">
 									<span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true" style="width: 15px;"></i></span>
 									<input type="text" class="form-control" placeholder="First name" aria-describedby="basic-addon1">
 								</div>
 							</div>
 							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Last name</strong></label>
 								<div class="input-group">
 									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-user" aria-hidden="true" style="width: 15px;"></i></span>
 									<input type="text" class="form-control" placeholder="Last name" aria-describedby="basic-addon2">
@@ -79,8 +81,9 @@
 							</div>
 						</div>
 
-						<div class="row">
+						<div class="row" style="margin-bottom: 10px;">
 							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Birthday</strong></label>
 								<div class="input-group">
 									<span class="input-group-addon" id="basic-addon3"><i class="fa fa-calendar" aria-hidden="true" style="width: 15px;"></i></span>
 									<input type="text" class="form-control" placeholder="Birthday" aria-describedby="basic-addon3">
@@ -88,18 +91,105 @@
 							</div>
 						</div>
 
-						<div class="row">
-							<div class="col-lg-6">
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-12">
+								<label class="float-xs-left"><strong>Gender</strong></label>
 								<div class="input-group">
-									
+									<label class="form-check-inline float-xs-left">
+										<input class="form-check-input" type="radio" name="gender" id="gender" value="Male"> Male
+									</label>
+									<label class="form-check-inline float-xs-left">
+										<input class="form-check-input" type="radio" name="gender" id="gender" value="Female"> Female
+									</label>
 								</div>
 							</div>
 						</div>
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-12">
+								<label class="float-xs-left"><strong>Civil status</strong></label>
+								<div class="input-group">
+									<label class="form-check-inline float-xs-left">
+										<input class="form-check-input" type="radio" name="civilStatus" id="civilStatus" value="Single"> Single
+									</label>
+									<label class="form-check-inline float-xs-left">
+										<input class="form-check-input" type="radio" name="civilStatus" id="civilStatus" value="Married"> Married
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Province</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon4"><i class="fa fa-map-marker" aria-hidden="true" style="width: 15px;"></i></span>
+									<select name="province" id="province" class="form-control" aria-describedby="basic-addon4">
+										<option value="">Nueva Ecija</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Municipality</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon5"><i class="fa fa-map-marker" aria-hidden="true" style="width: 15px;"></i></span>
+									<select name="municipality" id="municipality" class="form-control" aria-describedby="basic-addon5">
+										<option value="">Cabanatuan City</option>
+									</select>
+								</div>
+							</div>
+						</div>	
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Barangay</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon6"><i class="fa fa-map-marker" aria-hidden="true" style="width: 15px;"></i></span>
+									<select name="barangay" id="barangay" class="form-control" aria-describedby="basic-addon6">
+										<option value="">Sangitan</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 25px;">
+							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Contact no.</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon7"><i class="fa fa-phone" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Contact no" aria-describedby="basic-addon2">
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 25px;">
+							<div class="col-lg-12" style="height: 20rem; overflow-y: scroll;">
+								<label class="float-xs-left"><strong>TERMS OF AGREEMENT</strong></label> <br>
+								<p class="float-xs-left" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ut beatae aliquam omnis voluptatem tempora rem, obcaecati non aliquid reprehenderit consectetur quasi provident consequuntur unde, sunt, ipsam quis labore recusandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eveniet itaque iste quae, eos fuga assumenda molestiae cum omnis repellendus, natus consectetur in dicta eius, pariatur dolores. Tempore, tenetur, eius? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi suscipit porro ducimus similique, quis. Error aspernatur eos praesentium iste recusandae architecto quis molestias magnam provident numquam. Similique rerum, doloribus hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis veniam molestiae a qui molestias praesentium quas commodi, sint tempore. Iusto dicta nulla rerum accusamus ipsum officia voluptas amet deleniti repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita eius iste dolores quasi vel, optio voluptatibus consectetur quos beatae animi incidunt laboriosam voluptatum, debitis? In, maxime hic minima illum! Hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex minima sit praesentium beatae ab nisi error minus voluptates, odit perferendis hic debitis sapiente autem ipsam rerum unde at, mollitia neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odio fugiat in odit cumque quas, nisi ipsum rem rerum, sit illo molestiae sunt quisquam, reprehenderit nemo expedita deleniti necessitatibus voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vitae ex in inventore velit repudiandae, ipsum quae fugit, id culpa enim magni, consequatur nulla unde officiis iste temporibus ipsam iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero suscipit neque officia, soluta ratione vitae tempora quisquam accusantium dolorem et a consequatur, nisi modi eaque eos facilis, quos maiores aut.</p>
+								<div class="input-group">
+									<label class="form-check-inline float-xs-left">
+										<input class="form-check-input" type="checkbox" name="terms" id="terms" value="1"> <strong>I agree to the terms of agreement</strong>
+									</label>
+								</div>
+							</div>
+						</div>	
+
+						<div class="row">
+							<div class="col-lg-12">
+								<button type="button" class="btn btn-primary float-xs-left" disabled="disabled"><i class="fa fa-check-circle" aria-hidden="true"></i> Register</button>
+							</div>
+						</div>																
 					</fieldset>
 				</form>
 			</div>
 		</div>
 	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<span>Philippine Rice Research Institute</span>
+		</div>
+	</footer>
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->
