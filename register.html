@@ -17,6 +17,9 @@
 	<link rel="stylesheet" href="css/custom-style.css">
 
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+	<!-- captcha -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 	<!-- Navbar logo -->
@@ -152,12 +155,29 @@
 							</div>
 						</div>
 
-						<div class="row" style="margin-bottom: 25px;">
+						<div class="row" style="margin-bottom: 10px;">
 							<div class="col-lg-6">
 								<label class="float-xs-left"><strong>Contact no.</strong></label>
 								<div class="input-group">
 									<span class="input-group-addon" id="basic-addon7"><i class="fa fa-phone" aria-hidden="true" style="width: 15px;"></i></span>
-									<input type="text" class="form-control" placeholder="Contact no" aria-describedby="basic-addon2">
+									<input type="text" class="form-control" placeholder="Contact no" aria-describedby="basic-addon7">
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 25px;">
+							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Email</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon8"><i class="fa fa-envelope-o" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon8">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<label class="float-xs-left"><strong>Password</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon9"><i class="fa fa-lock" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="password" class="form-control" placeholder="Email" aria-describedby="basic-addon9">
 								</div>
 							</div>
 						</div>
@@ -174,6 +194,8 @@
 							</div>
 						</div>	
 
+						<div class="g-recaptcha" data-sitekey="6Lfx-A0UAAAAAKyW5hfHd_0fnnEp9P06OaJjJPlT" style="margin-bottom: 25px;"></div>
+
 						<div class="row">
 							<div class="col-lg-12">
 								<button type="button" class="btn btn-primary float-xs-left" disabled="disabled"><i class="fa fa-check-circle" aria-hidden="true"></i> Register</button>
@@ -187,6 +209,7 @@
 
 	<footer class="footer">
 		<div class="container">
+			<span>Copyright &#169; 2017 All Rights Reserved.</span>
 			<span>Philippine Rice Research Institute</span>
 		</div>
 	</footer>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>New Training Course</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="css/dashboard.css">
+
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="DataTables/datatables.min.css">
+</head>
+<body>
+	<!-- Navbar logo -->
+	<nav class="navbar navbar-fixed-top navbar-light bg-faded" style="background-color: #1fbba6;">
+		<div class="container">
+			<a href="#" class="navbar-brand"><img src="images/PhilRice_logo.png" alt="PhilRice" style="height: 70px;"></a>
+		</div>
+	</nav> <!-- end -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li><a href="#">Home</a></li>
+				</ul>
+				<ul class="nav nav-sidebar">
+					<li><strong>TRAININGS</strong></li>
+					<li class="active"><a href="#">Add Training Course</a></li>
+					<li><a href="#">View Training Courses</a></li>
+				</ul>								
+			</div>
+
+			<div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
+				<h2>NEW TRAINING COURSE</h2>
+
+				<div class="col-lg-10" style="background-color: #f5f5f5; margin-top: 10px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;">
+					<form>
+						<div class="row" style="margin-bottom: 10px;">					
+							<div class="col-lg-4" style="margin-bottom: 10px;">
+								<label><strong>Title</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon1"><i class="fa fa-pencil" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Title" aria-describedby="basic-addon1">
+								</div>
+							</div>
+						</div>
+						
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-6">
+								<label><strong>Objectives</strong></label>
+								<textarea class="form-control" rows="5"></textarea>
+							</div>	
+						</div>
+
+						<div class="row" style="margin-bottom: 10px;">				
+							<div class="col-lg-6">
+								<label><strong>Description</strong></label>
+								<textarea class="form-control" rows="5"></textarea>
+							</div>
+						</div>	
+						
+						<div class="row" style="margin-bottom: 10px">
+							<div class="col-lg-12">
+								<label><strong>Modules</strong></label>
+								<table class="modules cell-border compact" style="background-color: white;">
+									<thead>
+										<tr>
+											<th></th>
+											<th>Module Title</th>
+											<th>Topics</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><input type="checkbox" name="" id="" value=""></td>
+											<td>Module 1</td>
+											<td>
+												1. Topic 1 <br>
+												2. Topic 2 <br>
+												3. Topic 3 <br>
+											</td>
+											<td>Php 2000</td>
+										</tr>
+										<tr>
+											<td><input type="checkbox" name="" id="" value=""></td>
+											<td>Module 2</td>
+											<td>
+												1. Topic 1 <br>
+												2. Topic 2 <br>
+												3. Topic 3 <br>
+												4. Topic 4 <br>
+											</td>
+											<td>Php 2500</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Area</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-map-marker" aria-hidden="true" style="width: 15px;"></i></span>
+									<select name="area" id="area" class="form-control" aria-describedby="basic-addon2">
+										<option value="">Luzon</option>
+										<option value="">Vizayas</option>
+										<option value="">Mindanao</option>
+									</select>
+								</div>
+							</div>
+						</div>	
+
+						<div class="row" style="margin-bottom: 10px;">					
+							<div class="col-lg-4" style="margin-bottom: 10px;">
+								<label><strong>Venue</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon3"><i class="fa fa-map-marker" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Venue" aria-describedby="basic-addon3">
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Date start</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon4"><i class="fa fa-calendar" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Date start" aria-describedby="basic-addon4">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Date end</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon5"><i class="fa fa-calendar" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Date end" aria-describedby="basic-addon5" readonly="readonly">
+								</div>
+							</div>
+						</div>	
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Time start</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon6"><i class="fa fa-clock-o" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Time start" aria-describedby="basic-addon6">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Time end</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon7"><i class="fa fa-clock-o" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="Time end" aria-describedby="basic-addon7" readonly="readonly">
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 10px;">
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Maximum no. of Participants</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon8"><i class="fa fa-user" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="" aria-describedby="basic-addon8" value="0" readonly="readonly">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Minimum no. of Participants</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon9"><i class="fa fa-user" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="" aria-describedby="basic-addon9" value="0" readonly="readonly">
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="margin-bottom: 25px;">
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Total Price</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon10"><i class="fa fa-money" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="" aria-describedby="basic-addon10" value="0" readonly="readonly">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<label class="float-xs-left"><strong>Registration Fee per Participant</strong></label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon11"><i class="fa fa-money" aria-hidden="true" style="width: 15px;"></i></span>
+									<input type="text" class="form-control" placeholder="" aria-describedby="basic-addon11" value="0" readonly="readonly">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12">
+								<button type="button" class="btn btn-primary float-xs-left"><i class="fa fa-check-circle" aria-hidden="true" style="width: 15px;"></i> Add</button>
+							</div>
+						</div>																																	
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="DataTables/datatables.min.js"></script>	
+
+    <script>
+    	$(document).ready(function() {
+    		$('.modules').DataTable();
+    	});
+    </script>	
+</body>
+</html>
